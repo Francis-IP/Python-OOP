@@ -1,0 +1,10 @@
+Explanation
+Smartphone Class:
+
+The Smartphone class inherits from ElectronicDevice, which means it shares the properties like brand, model, and battery percentage.
+The Smartphone class also has its own methods like make_call() and take_picture() specific to smartphones.
+The charge_battery() method from ElectronicDevice is inherited, and it sets the battery percentage to 100.
+Polymorphism in Action:
+
+Both Car and Plane classes inherit from the Vehicle class and override the move() method. The Car class prints "Driving 🚗", and the Plane class prints "Flying ✈️".
+In the loop, we treat both Car and Plane objects as instances of Vehicle, demonstrating polymorphism—each object behaves according to its own class definition of move().
